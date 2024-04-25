@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.body-transition {
+    transition: background-color 0.5s ease;
+}
+
+input {
+    padding: 0.3rem;
+    width: 200px;
+    font-size: 1rem;
+    color: black;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 1rem;
+}
